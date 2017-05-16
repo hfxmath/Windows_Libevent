@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{c3518fb4-976d-4a20-b725-6df982452299}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\bufferevent-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\changelist-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\defer-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\epolltable-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\evbuffer-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\event-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\evmap-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\evrpc-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\evsignal-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\evthread-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\ht-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\http-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\iocp-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\ipv6-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\kqueue-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\log-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\minheap-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\mm-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\openssl-compat.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\ratelim-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\strlcpy-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\time-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libevent\util-internal.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="win_libevent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\buffer.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\buffer_iocp.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent_async.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent_filter.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent_pair.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent_ratelim.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\bufferevent_sock.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evdns.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\event.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\event_iocp.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\event_tagging.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evmap.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evrpc.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evthread.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evthread_win32.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evutil.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evutil_rand.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\evutil_time.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\http.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\listener.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\log.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\poll.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\signal.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\strlcpy.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libevent\win32select.c">
+      <Filter>libevent</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
